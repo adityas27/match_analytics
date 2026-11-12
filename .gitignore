@@ -7,3 +7,5 @@ __pycache__
 .ruff_cache
 staticfiles
 media
+.venv
+.wsl_venv

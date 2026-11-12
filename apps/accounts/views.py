@@ -56,6 +56,5 @@ class MeView(generics.RetrieveAPIView):
     def get_object(self):
         return self.request.user
 
-
 token_refresh = TokenRefreshView.as_view()
 token_verify = TokenVerifyView.as_view()
